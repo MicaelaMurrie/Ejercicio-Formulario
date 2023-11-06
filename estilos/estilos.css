@@ -1,0 +1,66 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
+}
+
+#pr1,
+#pr2,
+#pr3 {
+  display: none;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px 0;
+  background: #34a3a3;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+form {
+  background: #34a3a3;
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 40%;
+  margin: 30px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.datos-personales {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  font-size: large;
+  margin: 10px;
+}
+
+input {
+  border-radius: 5px;
+  border-color: #40d3d3;
+}
+
+fieldset {
+  border-radius: 10px;
+  border-color: #fff;
+  margin: 10px;
+}
+
+.submit {
+  text-align: center;
+  width: 100%;
+  font-size: large;
+  font-weight: bold;
+  color: #2c8888;
+  margin-top: 25px;
+  padding: 5px 0;
+  background-color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 8px;
+  border-color: #44cece;
+}

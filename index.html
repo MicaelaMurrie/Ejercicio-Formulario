@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./estilos/estilos.css" />
+    <title>SeguroNoPagamosCooperativa</title>
+  </head>
+  <body>
+    <h1>Seguro No Pagamos Cooperativa</h1>
+
+    <form action="/https://www.seguronopagamoscooperativa.com" method="post">
+      <ul>
+        <li class="datos-personales">
+          <label for="firs-tname">Nombre:</label>
+          <input type="text" id="first-name" name="first-name" />
+        </li>
+        <li class="datos-personales">
+          <label for="last-name">Apellido:</label>
+          <input type="text" id="last-name" name="last-name" />
+        </li>
+        <li class="datos-personales">
+          <label for="dni">DNI:</label>
+          <input type="number" id="dni" name="dni" />
+        </li>
+        <li class="datos-personales">
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" />
+        </li>
+        <li class="datos-personales">
+          <label for="phone">Teléfono:</label>
+          <input type="number" id="phone" name="phone" />
+        </li>
+      </ul>
+      <fieldset>
+        <legend>Seleccionar tipo de seguro deseado</legend>
+        <ul>
+          <li>
+            <input
+              class="mostrar"
+              type="radio"
+              id="basic"
+              name="tipo-de-seguro"
+              value="basic"
+            />
+            <label for="basic">Básico</label>
+            <p id="pr1" name="basic" class="precio">($500)</p>
+          </li>
+          <li>
+            <input
+              class="mostrar"
+              type="radio"
+              id="intermedio"
+              name="tipo-de-seguro"
+              value="intermedio"
+            />
+            <label for="intermedio">Intermedio</label>
+            <p id="pr2" name="intermedio" class="precio">($1000)</p>
+          </li>
+          <li>
+            <input
+              class="mostrar"
+              type="radio"
+              id="premium"
+              name="tipo-de-seguro"
+              value="premium"
+            />
+            <label for="premium">Premium</label>
+            <p id="pr3" name="premium" class="precio">($1500)</p>
+          </li>
+        </ul>
+      </fieldset>
+
+      <button class="submit" type="submit">Enviar</button>
+    </form>
+    <script src="./js/js.js"></script>
+  </body>
+</html>
